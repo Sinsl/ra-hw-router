@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 export const useHttpRequest = (url, opts) => {
-  console.log(url)
 
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
